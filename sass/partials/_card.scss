@@ -1,0 +1,18 @@
+.card {
+    height: 250px;
+    border-radius: 15px;
+}
+
+.row__card {
+    background: getColours(secondary);
+
+    &--borderpink {
+        border: solid 3px #C32C72;
+        background: white;
+    }
+
+    &--pink {
+        background: #C32C72;
+        border: solid 3px white;
+    }
+}

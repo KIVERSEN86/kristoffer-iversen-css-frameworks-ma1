@@ -1,0 +1,17 @@
+.row__card {
+  height: 250px;
+  border-radius: 15px;
+}
+
+.row__box {
+  background: white;
+  height: 263px;
+  border-radius: 15px;
+}
+.row__box--borderpink {
+  border: solid 3px #C32C72;
+}
+.row__box--pink {
+  background: #C32C72;
+  border: solid 3px white;
+}/*# sourceMappingURL=card.css.map */
