@@ -25,6 +25,11 @@ header {
   flex: 1 0 auto;
 }
 
+nav, .footer__container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 h1 {
   text-align: center;
   padding: 50px;
@@ -39,10 +44,6 @@ nav a {
   font-family: "archivo narrow", sans-serif;
 }
 
-nav {
-  max-width: 90%;
-  margin: 0 auto;
-}
 nav__link {
   color: black;
   font-size: 1.125rem;
@@ -79,8 +80,6 @@ footer .footer__container {
   flex-shrink: 0;
   padding: 5px;
   align-items: center;
-  max-width: 90%;
-  margin: 0 auto;
 }
 @media (min-width: 760px) {
   footer .footer__container {
