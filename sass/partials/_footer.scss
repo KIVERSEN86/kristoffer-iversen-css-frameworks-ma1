@@ -1,0 +1,24 @@
+footer  {
+    background: getColours(secondary);
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-shrink: 0;
+        padding: 5px;
+        align-items: center;
+        max-width: 90%;
+        margin: 0 auto;
+
+        @media (min-width: 760px) {
+            flex-direction: row;
+        }
+
+        a {
+            color: #8D8D8D;
+            padding: 5px;
+        }
+    }
+
+}

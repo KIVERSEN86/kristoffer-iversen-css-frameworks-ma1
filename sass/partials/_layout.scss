@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background: getColours(primary);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: getColours(secondary);
+}
+
+.card {
+    margin-top: 25px;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+
+

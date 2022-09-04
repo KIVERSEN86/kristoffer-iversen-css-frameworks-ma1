@@ -1,6 +1,6 @@
 .card {
     height: 250px;
-    border-radius: 15px;
+    @include card-border(15px);
 }
 
 .row__card {
