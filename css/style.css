@@ -42,13 +42,10 @@ h1, .logo, footer {
 
 nav a {
   font-family: "archivo narrow", sans-serif;
-}
-
-nav__link {
   color: black;
   font-size: 1.125rem;
-  font-family: "archivo narrow", sans-serif;
 }
+
 nav .logo {
   font-size: 2.2rem;
 }
